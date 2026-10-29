@@ -1,0 +1,14 @@
+# Dataset and extracted participant recordings: do not commit
+/data/
+*.pkl
+*.h5
+*_E4.zip
+# Environment, local artifacts and secrets
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+outputs/
+.env
+.env.*
+*_private*
